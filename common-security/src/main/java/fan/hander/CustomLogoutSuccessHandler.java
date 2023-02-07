@@ -1,11 +1,11 @@
 package fan.hander;
 
 import cn.hutool.json.JSONUtil;
+import fan.common.utils.LogUtil;
+import fan.common.utils.RedisUtil;
 import fan.consts.AuthConst;
 
-import fan.utils.LogUtil;
-import fan.utils.RedisUtil;
-import fan.base.Response;
+import fan.common.base.Response;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;

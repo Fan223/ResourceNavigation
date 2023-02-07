@@ -1,6 +1,6 @@
 package fan.query;
 
-import fan.base.BaseQuery;
+import fan.common.base.BaseQuery;
 import lombok.Builder;
 import lombok.Data;
 

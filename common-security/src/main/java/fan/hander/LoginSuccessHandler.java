@@ -2,7 +2,8 @@ package fan.hander;
 
 import cn.hutool.json.JSONUtil;
 import eu.bitwalker.useragentutils.UserAgent;
-import fan.base.Response;
+import fan.common.base.Response;
+import fan.common.utils.LogUtil;
 import fan.consts.AuthConst;
 import fan.entity.LoginInfoDO;
 import fan.service.LoginInfoService;

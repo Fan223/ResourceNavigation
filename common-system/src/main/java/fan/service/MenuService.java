@@ -1,8 +1,8 @@
 package fan.service;
 
 import fan.command.MenuCommand;
+import fan.common.base.Response;
 import fan.query.MenuQuery;
-import fan.base.Response;
 import fan.vo.MenuVO;
 
 import java.util.List;

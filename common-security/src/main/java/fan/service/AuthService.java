@@ -1,6 +1,6 @@
 package fan.service;
 
-import fan.base.Response;
+import fan.common.base.Response;
 
 import javax.servlet.http.HttpServletRequest;
 

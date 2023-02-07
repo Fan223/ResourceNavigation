@@ -3,7 +3,7 @@ package fan.service;
 import fan.bo.UserRoleBO;
 import fan.command.UserRoleCommand;
 import fan.query.UserRoleQuery;
-import fan.base.Response;
+import fan.common.base.Response;
 
 import java.util.List;
 

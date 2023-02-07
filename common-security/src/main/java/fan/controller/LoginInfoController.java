@@ -2,7 +2,7 @@ package fan.controller;
 
 import fan.query.LoginInfoQuery;
 import fan.service.LoginInfoService;
-import fan.base.Response;
+import fan.common.base.Response;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

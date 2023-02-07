@@ -1,8 +1,8 @@
 package fan.hander;
 
 import cn.hutool.json.JSONUtil;
-import fan.utils.LogUtil;
-import fan.base.Response;
+import fan.common.base.Response;
+import fan.common.utils.LogUtil;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.stereotype.Component;

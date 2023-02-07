@@ -1,10 +1,10 @@
 package fan.service;
 
-import fan.base.Response;
+import fan.common.base.Response;
 import fan.bo.UserBO;
 import fan.command.UserCommand;
 import fan.query.UserQuery;
-import fan.base.Response;
+import fan.common.base.Response;
 
 /**
  * 用户接口

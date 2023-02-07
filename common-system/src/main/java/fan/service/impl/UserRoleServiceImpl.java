@@ -5,17 +5,17 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import fan.bo.UserRoleBO;
 import fan.command.UserRoleCommand;
+import fan.common.utils.RedisUtil;
+import fan.common.utils.collection.ListUtil;
+import fan.common.utils.collection.StringUtil;
 import fan.consts.SystemConst;
 import fan.dao.UserRoleDAO;
 import fan.entity.UserRoleDO;
 import fan.query.UserRoleQuery;
 import fan.service.UserRoleService;
 
-import fan.utils.RedisUtil;
-import fan.base.Response;
+import fan.common.base.Response;
 import fan.utils.SystemMapStruct;
-import fan.utils.collection.ListUtil;
-import fan.utils.collection.StringUtil;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -2,7 +2,7 @@ package fan.controller;
 
 import fan.command.UserRoleCommand;
 import fan.service.UserRoleService;
-import fan.base.Response;
+import fan.common.base.Response;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 

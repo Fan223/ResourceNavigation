@@ -1,6 +1,5 @@
 package fan.utils;
 
-import fan.utils.collection.StringUtil;
 import org.mapstruct.Named;
 import org.springframework.stereotype.Component;
 

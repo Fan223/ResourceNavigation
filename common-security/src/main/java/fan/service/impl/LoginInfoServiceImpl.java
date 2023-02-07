@@ -4,14 +4,14 @@ import cn.hutool.core.lang.UUID;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import fan.common.utils.collection.StringUtil;
 import fan.dao.LoginInfoDAO;
 import fan.entity.LoginInfoDO;
 import fan.query.LoginInfoQuery;
 import fan.service.LoginInfoService;
 import fan.utils.AuthMapStruct;
 
-import fan.base.Response;
-import fan.utils.collection.StringUtil;
+import fan.common.base.Response;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

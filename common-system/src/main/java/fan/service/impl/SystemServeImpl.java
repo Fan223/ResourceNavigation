@@ -2,6 +2,9 @@ package fan.service.impl;
 
 import fan.bo.UserRoleBO;
 import fan.command.SystemCommand;
+import fan.common.utils.LogUtil;
+import fan.common.utils.RedisUtil;
+import fan.common.utils.collection.ListUtil;
 import fan.consts.SystemConst;
 import fan.enums.MenuTypeEnum;
 import fan.query.MenuQuery;
@@ -10,9 +13,6 @@ import fan.query.RoleQuery;
 import fan.query.UserRoleQuery;
 import fan.service.*;
 
-import fan.utils.LogUtil;
-import fan.utils.RedisUtil;
-import fan.utils.collection.ListUtil;
 import fan.vo.MenuVO;
 import fan.vo.RoleVO;
 import org.springframework.context.annotation.Lazy;

@@ -2,7 +2,7 @@ package fan.service;
 
 import fan.entity.LoginInfoDO;
 import fan.query.LoginInfoQuery;
-import fan.base.Response;
+import fan.common.base.Response;
 
 /**
  * 登录信息接口

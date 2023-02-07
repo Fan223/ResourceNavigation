@@ -4,13 +4,13 @@ import cn.hutool.core.codec.Base64Encoder;
 import cn.hutool.core.lang.UUID;
 import cn.hutool.core.map.MapUtil;
 import com.google.code.kaptcha.Producer;
+import fan.common.utils.RedisUtil;
 import fan.consts.AuthConst;
 import fan.exception.CustomException;
 import fan.service.AuthService;
 import fan.utils.AuthUtil;
 import org.springframework.stereotype.Service;
-import fan.utils.RedisUtil;
-import fan.base.Response;
+import fan.common.base.Response;
 
 import javax.annotation.Resource;
 import javax.imageio.ImageIO;

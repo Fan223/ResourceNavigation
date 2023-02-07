@@ -2,7 +2,7 @@ package fan.service;
 
 import fan.command.RoleMenuCommand;
 import fan.query.RoleMenuQuery;
-import fan.base.Response;
+import fan.common.base.Response;
 
 import java.util.List;
 

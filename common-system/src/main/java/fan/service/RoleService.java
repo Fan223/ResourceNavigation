@@ -2,7 +2,7 @@ package fan.service;
 
 import fan.command.RoleCommand;
 import fan.query.RoleQuery;
-import fan.base.Response;
+import fan.common.base.Response;
 import fan.vo.RoleVO;
 
 import java.util.List;

@@ -3,7 +3,7 @@ package fan.controller;
 import fan.command.RoleMenuCommand;
 import fan.query.RoleMenuQuery;
 import fan.service.RoleMenuService;
-import fan.base.Response;
+import fan.common.base.Response;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 

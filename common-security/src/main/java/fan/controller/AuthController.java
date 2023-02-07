@@ -3,7 +3,7 @@ package fan.controller;
 import fan.service.AuthService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import fan.base.Response;
+import fan.common.base.Response;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;

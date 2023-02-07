@@ -1,8 +1,8 @@
 package fan.controller;
 
 import cn.hutool.core.map.MapUtil;
-import fan.base.Response;
 import fan.command.MenuCommand;
+import fan.common.base.Response;
 import fan.query.MenuQuery;
 import fan.service.MenuService;
 import fan.service.SystemService;

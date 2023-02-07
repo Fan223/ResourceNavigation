@@ -7,6 +7,8 @@ import fan.command.RoleCommand;
 import fan.command.RoleMenuCommand;
 import fan.command.SystemCommand;
 import fan.command.UserRoleCommand;
+import fan.common.utils.collection.ListUtil;
+import fan.common.utils.collection.StringUtil;
 import fan.dao.RoleDAO;
 import fan.entity.RoleDO;
 import fan.query.RoleQuery;
@@ -15,10 +17,8 @@ import fan.service.RoleService;
 import fan.service.SystemService;
 import fan.service.UserRoleService;
 
-import fan.base.Response;
+import fan.common.base.Response;
 import fan.utils.SystemMapStruct;
-import fan.utils.collection.ListUtil;
-import fan.utils.collection.StringUtil;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

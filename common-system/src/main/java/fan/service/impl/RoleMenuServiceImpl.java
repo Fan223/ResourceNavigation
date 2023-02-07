@@ -4,15 +4,15 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import fan.command.RoleMenuCommand;
 import fan.command.SystemCommand;
+import fan.common.utils.collection.ListUtil;
+import fan.common.utils.collection.StringUtil;
 import fan.dao.RoleMenuDAO;
 import fan.entity.RoleMenuDO;
 import fan.query.RoleMenuQuery;
 import fan.service.RoleMenuService;
 import fan.service.SystemService;
 
-import fan.base.Response;
-import fan.utils.collection.ListUtil;
-import fan.utils.collection.StringUtil;
+import fan.common.base.Response;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
