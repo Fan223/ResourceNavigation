@@ -15,9 +15,9 @@ spring:
       # 设置空闲检测语句
       validation-query: SELECT 1
   redis:
-    host: 124.222.118.90
+    host: 124.222.xxx.xxx
     port: 6379
-    password: Fan223
+    password: xxx
     database: 0
 #
 #mybatis-plus:
